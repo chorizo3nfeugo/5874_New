@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0DF5F431E101820006E4326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF5F421E101820006E4326 /* AppDelegate.swift */; };
+		C0DF5F451E101820006E4326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF5F441E101820006E4326 /* ViewController.swift */; };
+		C0DF5F481E101820006E4326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DF5F461E101820006E4326 /* Main.storyboard */; };
+		C0DF5F4A1E101820006E4326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DF5F491E101820006E4326 /* Assets.xcassets */; };
+		C0DF5F4D1E101820006E4326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DF5F4B1E101820006E4326 /* LaunchScreen.storyboard */; };
+		C0DF5F581E101820006E4326 /* User_Data_UploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF5F571E101820006E4326 /* User_Data_UploadTests.swift */; };
+		C0DF5F631E101820006E4326 /* User_Data_UploadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF5F621E101820006E4326 /* User_Data_UploadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0DF5F541E101820006E4326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0DF5F371E101820006E4326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DF5F3E1E101820006E4326;
+			remoteInfo = "User Data Upload";
+		};
+		C0DF5F5F1E101820006E4326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0DF5F371E101820006E4326 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DF5F3E1E101820006E4326;
+			remoteInfo = "User Data Upload";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0DF5F3F1E101820006E4326 /* User Data Upload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User Data Upload.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DF5F421E101820006E4326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0DF5F441E101820006E4326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0DF5F471E101820006E4326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0DF5F491E101820006E4326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0DF5F4C1E101820006E4326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0DF5F4E1E101820006E4326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DF5F531E101820006E4326 /* User Data UploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data UploadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DF5F571E101820006E4326 /* User_Data_UploadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Data_UploadTests.swift; sourceTree = "<group>"; };
+		C0DF5F591E101820006E4326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DF5F5E1E101820006E4326 /* User Data UploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Data UploadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DF5F621E101820006E4326 /* User_Data_UploadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Data_UploadUITests.swift; sourceTree = "<group>"; };
+		C0DF5F641E101820006E4326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0DF5F3C1E101820006E4326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DF5F501E101820006E4326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DF5F5B1E101820006E4326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0DF5F361E101820006E4326 = {
+			isa = PBXGroup;
+			children = (
+				C0DF5F411E101820006E4326 /* User Data Upload */,
+				C0DF5F561E101820006E4326 /* User Data UploadTests */,
+				C0DF5F611E101820006E4326 /* User Data UploadUITests */,
+				C0DF5F401E101820006E4326 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0DF5F401E101820006E4326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0DF5F3F1E101820006E4326 /* User Data Upload.app */,
+				C0DF5F531E101820006E4326 /* User Data UploadTests.xctest */,
+				C0DF5F5E1E101820006E4326 /* User Data UploadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0DF5F411E101820006E4326 /* User Data Upload */ = {
+			isa = PBXGroup;
+			children = (
+				C0DF5F421E101820006E4326 /* AppDelegate.swift */,
+				C0DF5F441E101820006E4326 /* ViewController.swift */,
+				C0DF5F461E101820006E4326 /* Main.storyboard */,
+				C0DF5F491E101820006E4326 /* Assets.xcassets */,
+				C0DF5F4B1E101820006E4326 /* LaunchScreen.storyboard */,
+				C0DF5F4E1E101820006E4326 /* Info.plist */,
+			);
+			path = "User Data Upload";
+			sourceTree = "<group>";
+		};
+		C0DF5F561E101820006E4326 /* User Data UploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0DF5F571E101820006E4326 /* User_Data_UploadTests.swift */,
+				C0DF5F591E101820006E4326 /* Info.plist */,
+			);
+			path = "User Data UploadTests";
+			sourceTree = "<group>";
+		};
+		C0DF5F611E101820006E4326 /* User Data UploadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0DF5F621E101820006E4326 /* User_Data_UploadUITests.swift */,
+				C0DF5F641E101820006E4326 /* Info.plist */,
+			);
+			path = "User Data UploadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0DF5F3E1E101820006E4326 /* User Data Upload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DF5F671E101820006E4326 /* Build configuration list for PBXNativeTarget "User Data Upload" */;
+			buildPhases = (
+				C0DF5F3B1E101820006E4326 /* Sources */,
+				C0DF5F3C1E101820006E4326 /* Frameworks */,
+				C0DF5F3D1E101820006E4326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "User Data Upload";
+			productName = "User Data Upload";
+			productReference = C0DF5F3F1E101820006E4326 /* User Data Upload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0DF5F521E101820006E4326 /* User Data UploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DF5F6A1E101820006E4326 /* Build configuration list for PBXNativeTarget "User Data UploadTests" */;
+			buildPhases = (
+				C0DF5F4F1E101820006E4326 /* Sources */,
+				C0DF5F501E101820006E4326 /* Frameworks */,
+				C0DF5F511E101820006E4326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0DF5F551E101820006E4326 /* PBXTargetDependency */,
+			);
+			name = "User Data UploadTests";
+			productName = "User Data UploadTests";
+			productReference = C0DF5F531E101820006E4326 /* User Data UploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0DF5F5D1E101820006E4326 /* User Data UploadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0DF5F6D1E101820006E4326 /* Build configuration list for PBXNativeTarget "User Data UploadUITests" */;
+			buildPhases = (
+				C0DF5F5A1E101820006E4326 /* Sources */,
+				C0DF5F5B1E101820006E4326 /* Frameworks */,
+				C0DF5F5C1E101820006E4326 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0DF5F601E101820006E4326 /* PBXTargetDependency */,
+			);
+			name = "User Data UploadUITests";
+			productName = "User Data UploadUITests";
+			productReference = C0DF5F5E1E101820006E4326 /* User Data UploadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0DF5F371E101820006E4326 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = 5874;
+				TargetAttributes = {
+					C0DF5F3E1E101820006E4326 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					C0DF5F521E101820006E4326 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0DF5F3E1E101820006E4326;
+					};
+					C0DF5F5D1E101820006E4326 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0DF5F3E1E101820006E4326;
+					};
+				};
+			};
+			buildConfigurationList = C0DF5F3A1E101820006E4326 /* Build configuration list for PBXProject "User Data Upload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0DF5F361E101820006E4326;
+			productRefGroup = C0DF5F401E101820006E4326 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0DF5F3E1E101820006E4326 /* User Data Upload */,
+				C0DF5F521E101820006E4326 /* User Data UploadTests */,
+				C0DF5F5D1E101820006E4326 /* User Data UploadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0DF5F3D1E101820006E4326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DF5F4D1E101820006E4326 /* LaunchScreen.storyboard in Resources */,
+				C0DF5F4A1E101820006E4326 /* Assets.xcassets in Resources */,
+				C0DF5F481E101820006E4326 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DF5F511E101820006E4326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DF5F5C1E101820006E4326 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0DF5F3B1E101820006E4326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DF5F451E101820006E4326 /* ViewController.swift in Sources */,
+				C0DF5F431E101820006E4326 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DF5F4F1E101820006E4326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DF5F581E101820006E4326 /* User_Data_UploadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DF5F5A1E101820006E4326 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DF5F631E101820006E4326 /* User_Data_UploadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0DF5F551E101820006E4326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0DF5F3E1E101820006E4326 /* User Data Upload */;
+			targetProxy = C0DF5F541E101820006E4326 /* PBXContainerItemProxy */;
+		};
+		C0DF5F601E101820006E4326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0DF5F3E1E101820006E4326 /* User Data Upload */;
+			targetProxy = C0DF5F5F1E101820006E4326 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0DF5F461E101820006E4326 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DF5F471E101820006E4326 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0DF5F4B1E101820006E4326 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0DF5F4C1E101820006E4326 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0DF5F651E101820006E4326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0DF5F661E101820006E4326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0DF5F681E101820006E4326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "User Data Upload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-874---Demo.User-Data-Upload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C0DF5F691E101820006E4326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "User Data Upload/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-874---Demo.User-Data-Upload";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C0DF5F6B1E101820006E4326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "User Data UploadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-874---Demo.User-Data-UploadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/User Data Upload.app/User Data Upload";
+			};
+			name = Debug;
+		};
+		C0DF5F6C1E101820006E4326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "User Data UploadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-874---Demo.User-Data-UploadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/User Data Upload.app/User Data Upload";
+			};
+			name = Release;
+		};
+		C0DF5F6E1E101820006E4326 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "User Data UploadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-874---Demo.User-Data-UploadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "User Data Upload";
+			};
+			name = Debug;
+		};
+		C0DF5F6F1E101820006E4326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "User Data UploadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-874---Demo.User-Data-UploadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "User Data Upload";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0DF5F3A1E101820006E4326 /* Build configuration list for PBXProject "User Data Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DF5F651E101820006E4326 /* Debug */,
+				C0DF5F661E101820006E4326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0DF5F671E101820006E4326 /* Build configuration list for PBXNativeTarget "User Data Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DF5F681E101820006E4326 /* Debug */,
+				C0DF5F691E101820006E4326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0DF5F6A1E101820006E4326 /* Build configuration list for PBXNativeTarget "User Data UploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DF5F6B1E101820006E4326 /* Debug */,
+				C0DF5F6C1E101820006E4326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0DF5F6D1E101820006E4326 /* Build configuration list for PBXNativeTarget "User Data UploadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0DF5F6E1E101820006E4326 /* Debug */,
+				C0DF5F6F1E101820006E4326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0DF5F371E101820006E4326 /* Project object */;
+}
